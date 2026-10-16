@@ -17,6 +17,6 @@ class Persona:
         else:
             return f"{self.nombres} eres menor de edad"
 
-Persona1 = Persona("Carlos","Vaca",10,"Casado",99546542,75646212,"Masculino","Docente","adfoagd@gmail.com","Pampahasi 321")
+Persona1 = Persona("Carlos","Vaca",20,"Casado",99546542,75646212,"Masculino","Docente","adfoagd@gmail.com","Pampahasi 321")
 
 print(Persona1.es_mayor_de_edad())
